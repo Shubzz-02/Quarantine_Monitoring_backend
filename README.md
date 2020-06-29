@@ -3,6 +3,10 @@
 
 Project name is a Quarantine Monitoring that allows one to track people living in remote areas, whether they are breaking quarintine rules or not.
 
+## Client 
+* Client side.
+* Visit [Quarantine Monitoring Android](https://github.com/Shubzz-02/Quarantine_Monitoring_Android) for project details
+
 
 ## Prerequisites
 
