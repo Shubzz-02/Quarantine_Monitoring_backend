@@ -49,7 +49,7 @@ class DB_CONFIG
             $database = "sql12337403";
             if (is_null($this->_bconn)) {
                 $db = $this->_config;
-                $this->_bconn = mysqli_connect("sql12.freemysqlhosting.net", "sql12337403", "XR9skmD9WF");
+                $this->_bconn = mysqli_connect("sql12.freemysqlhosting.net", "sql12337403", "XR9s00kmD9WF");
                 if (!$this->_bconn) {
                     die("Cannot connect to database server");
                 }
