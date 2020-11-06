@@ -10,7 +10,7 @@ class DB_CONFIG
 
     protected $_config = array(
         'username' => 'pmhnsmlo_users',
-        'password' => 'JK0VHKcQE6',
+        'password' => 'D0nTB0th3RtrY1ng',
         'hostname' => 'localhost',
         'database' => 'pmhnsmlo_users'
     );
@@ -49,7 +49,7 @@ class DB_CONFIG
             $database = "sql12337403";
             if (is_null($this->_bconn)) {
                 $db = $this->_config;
-                $this->_bconn = mysqli_connect("sql12.freemysqlhosting.net", "sql12337403", "XR9s00kmD9WF");
+                $this->_bconn = mysqli_connect("sql12.freemysqlhosting.net", "sql12337403", "D0nTB0th3RtrY1ng");
                 if (!$this->_bconn) {
                     die("Cannot connect to database server");
                 }
