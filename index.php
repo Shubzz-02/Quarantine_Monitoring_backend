@@ -1,8 +1,8 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', TRUE);
-ini_set('display_startup_errors', TRUE);
+//error_reporting(E_ALL);
+//ini_set('display_errors', TRUE);
+//ini_set('display_startup_errors', TRUE);
 require_once '__login.block.php';
 require_once '__register.block.php';
 require_once '__user.block.php';
